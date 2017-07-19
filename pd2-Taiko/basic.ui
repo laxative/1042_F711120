@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>basic</class>
+ <widget class="QMainWindow" name="basic">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/background/images/bk.png);</string>
+   </property>
+   <widget class="QWidget" name="drum" native="true">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>155</y>
+      <width>200</width>
+      <height>155</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>155</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>155</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/mtaiko.png);</string>
+    </property>
+    <zorder>widget_2</zorder>
+   </widget>
+   <widget class="QWidget" name="icon" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>-30</y>
+      <width>270</width>
+      <height>220</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>270</width>
+      <height>220</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>270</width>
+      <height>220</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/images.png);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="resultguage" native="true">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>89</y>
+      <width>307</width>
+      <height>103</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>307</width>
+      <height>103</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>307</width>
+      <height>103</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/resultguage1.png);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="songtitle" native="true">
+    <property name="geometry">
+     <rect>
+      <x>395</x>
+      <y>270</y>
+      <width>400</width>
+      <height>44</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>400</width>
+      <height>44</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>400</width>
+      <height>44</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/hr_songtitle.png);</string>
+    </property>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>0</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 italic 28pt &quot;Comic Sans MS&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Basic</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGraphicsView" name="boardview">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>115</y>
+      <width>630</width>
+      <height>153</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>630</width>
+      <height>153</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>630</width>
+      <height>153</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;border:0px;</string>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="time">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>329</y>
+      <width>160</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>160</width>
+      <height>41</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>160</width>
+      <height>41</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/background/images/blackbackground.png);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>101</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 13pt &quot;Comic Sans MS&quot;;
+background-image: url(:/background/images/blackbackground.png);</string>
+    </property>
+    <property name="text">
+     <string>    TIME : </string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="board" native="true">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>115</y>
+      <width>620</width>
+      <height>153</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>620</width>
+      <height>153</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>620</width>
+      <height>153</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/background/images/bk5.png);</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="score">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>272</y>
+      <width>180</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>180</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>180</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/background/images/blackbackground.png);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>400</y>
+      <width>101</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/1.png);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>380</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/4.png);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>390</y>
+      <width>120</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/2.png);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>390</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/3.png);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>490</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>20</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/background/images/graybackground.png);
+font: 75 20pt &quot;Comic Sans MS&quot;;</string>
+    </property>
+    <property name="text">
+     <string>S/D</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>480</y>
+      <width>80</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/background/images/graybackground.png);
+font: 75 20pt &quot;Comic Sans MS&quot;;</string>
+    </property>
+    <property name="text">
+     <string>A/F</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="A" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-40</x>
+      <y>125</y>
+      <width>151</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/mtaikoflash_blue_left.png);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="F" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-5</x>
+      <y>122</y>
+      <width>151</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/mtaikoflash_blue_right.png);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="S" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-36</x>
+      <y>120</y>
+      <width>151</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/mtaikoflash_red_left.png);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="D" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-4</x>
+      <y>122</y>
+      <width>151</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/mtaikoflash_red_right.png);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="excellent" native="true">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>115</y>
+      <width>31</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/excellent.png);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="good" native="true">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>115</y>
+      <width>41</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/good.png);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="bad" native="true">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>130</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/item/images/bad.png);</string>
+    </property>
+   </widget>
+   <zorder>drum</zorder>
+   <zorder>icon</zorder>
+   <zorder>resultguage</zorder>
+   <zorder>songtitle</zorder>
+   <zorder>time</zorder>
+   <zorder>label</zorder>
+   <zorder>board</zorder>
+   <zorder>score</zorder>
+   <zorder>boardview</zorder>
+   <zorder>widget</zorder>
+   <zorder>widget_4</zorder>
+   <zorder>widget_5</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>widget_3</zorder>
+   <zorder>A</zorder>
+   <zorder>F</zorder>
+   <zorder>S</zorder>
+   <zorder>D</zorder>
+   <zorder>excellent</zorder>
+   <zorder>good</zorder>
+   <zorder>bad</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

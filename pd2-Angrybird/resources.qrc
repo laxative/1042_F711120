@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/bird">
+        <file>image/Normal_Bird_1.png</file>
+        <file>image/WhiteBird.png</file>
+        <file>image/yellowBird.png</file>
+        <file>image/BIRD_GREY_YELL.png</file>
+        <file>image/B_EASTEREGG_1.png</file>
+    </qresource>
+    <qresource prefix="/obstacle">
+        <file>image/XMAS2014_GROUND.png</file>
+        <file>image/XMAS_2012_SKY.png</file>
+        <file>image/BLOCK_ICE_4X4_1.png</file>
+        <file>image/BLOCK_ICE_4X4_2.png</file>
+        <file>image/BLOCK_ICE_4X4_3.png</file>
+        <file>image/BLOCK_ICE_4X4_4.png</file>
+        <file>image/BLOCK_LIGHT_1_4.png</file>
+        <file>image/BLOCK_LIGHT_2_4.png</file>
+        <file>image/BLOCK_LIGHT_3_4.png</file>
+        <file>image/BLOCK_LIGHT_4_4.png</file>
+        <file>image/BLOCK_LIGHT_4X4_1.png</file>
+        <file>image/BLOCK_LIGHT_4X4_2.png</file>
+        <file>image/BLOCK_LIGHT_4X4_3.png</file>
+        <file>image/BLOCK_LIGHT_4X4_4.png</file>
+    </qresource>
+    <qresource prefix="/pig">
+        <file>image/pig.png</file>
+        <file>image/pig2.png</file>
+    </qresource>
+    <qresource prefix="/thing">
+        <file>image/arrow.png</file>
+        <file>image/bow.png</file>
+        <file>image/exit.png</file>
+        <file>image/RESTART BUTTON 1.png</file>
+    </qresource>
+    <qresource prefix="/sound">
+        <file>sound/bird.wav</file>
+        <file>sound/click.wav</file>
+        <file>sound/death.wav</file>
+        <file>sound/glass.wav</file>
+        <file>sound/lose.wav</file>
+        <file>sound/win.wav</file>
+    </qresource>
+</RCC>

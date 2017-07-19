@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/background">
+        <file>images/bk.png</file>
+        <file>images/bk1.png</file>
+        <file>images/bk5.png</file>
+        <file>images/graybackground.png</file>
+        <file>gif/bk.gif</file>
+        <file>images/blackbackground.png</file>
+        <file>images/songselectbg.png</file>
+        <file>images/songselectbg2.png</file>
+        <file>images/firstbk.png</file>
+    </qresource>
+    <qresource prefix="/item">
+        <file>images/4.png</file>
+        <file>images/3.png</file>
+        <file>images/2.png</file>
+        <file>images/1.png</file>
+        <file>images/images.png</file>
+        <file>images/6.png</file>
+        <file>images/mtaiko.png</file>
+        <file>images/bk5.png</file>
+        <file>images/resultguage1.png</file>
+        <file>images/hr_songtitle.png</file>
+        <file>images/bad.png</file>
+        <file>images/excellent.png</file>
+        <file>images/good.png</file>
+        <file>images/mtaikoflash_blue_left.png</file>
+        <file>images/mtaikoflash_blue_right.png</file>
+        <file>images/mtaikoflash_red_left.png</file>
+        <file>images/mtaikoflash_red_right.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>media/hitside.wav</file>
+        <file>media/hit.wav</file>
+    </qresource>
+</RCC>
